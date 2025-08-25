@@ -1,0 +1,31 @@
+{
+  "feature_columns": [
+    "Avg VTAT",
+    "Avg CTAT",
+    "Booking Value",
+    "Ride Distance",
+    "Driver Ratings",
+    "Customer Rating",
+    "fare_per_km",
+    "is_weekend",
+    "is_late",
+    "same_area",
+    "_hour",
+    "Customer ID",
+    "Vehicle Type",
+    "Pickup Location",
+    "Drop Location",
+    "Payment Method"
+  ],
+  "label_column": "is_cancelled",
+  "metrics_test": {
+    "AUC": 0.9997,
+    "PR_AUC": 0.9986,
+    "Brier": 0.002,
+    "LogLoss": 0.0091,
+    "Share_High": 0.249,
+    "Share_Med": 0.0,
+    "Share_Low": 0.751,
+    "Utility": 27564.75
+  }
+}
